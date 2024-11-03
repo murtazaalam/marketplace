@@ -19,3 +19,247 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.nextjs-toast,
+.nextjs-static-indicator-toast-wrapper {
+  display: none !important;
+}
+.home-container{
+  margin-top: 72px;
+}
+.footer-text{
+  font-size: x-small;
+  font-weight: bold;
+}
+.heading{
+  font-size: x-large;
+  font-weight: bold;
+  width: fit-content;
+  margin: 24px 0 12px 0;
+  padding: 24px 0 12px 0;
+}
+.product-card{
+  width: 100%;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+}
+.product-card Image{
+  border-radius: 4px;
+}
+.card-heading{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.card-sub-heading{
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.card-price{
+  font-weight: bold;
+}
+.card-content{
+  padding: 4px 8px;
+}
+.card-content .card-sub-heading{
+  min-height: 47px;
+}
+.cat-div{
+  margin: 24px 0 12px 0;
+}
+.product-image{
+  width: 100%;
+}
+.product-image Image{
+  border-radius: 4px !important;
+}
+.product-name{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.product-description{
+  margin-top: 16px;
+  font-size: 18px;
+}
+.product-sub-heading{
+  margin-top: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6)
+}
+.product-price{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.p-image{
+  width: 100px;
+}
+.publisher-detail{
+  margin-top: 16px;
+}
+.publisher-detail h3{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.publisher-detail p{
+  margin-bottom: 4px;
+}
+.publisher-detail p span:first-child{
+  font-size: 14px;
+  font-weight: bold;
+}
+.publisher-detail p span:last-child{
+  font-size: 14px;
+}
+.form-box button{
+  width: 100%;
+  margin-top: 16px
+}
+.btn-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-gen{
+  color: #000000;
+  font-weight: bold !important;
+  background-color: #fff;
+}
+.btn-gen:hover{
+  background-color: #fff;
+}
+.user{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 50%;
+  font-size: 28px;
+  cursor: pointer;
+}
+.show-hide-dropdown{
+  position: relative;
+}
+.show-hide-dropdown:hover .user-dropdown{
+  display: block;
+}
+.user-dropdown{
+  display: none;
+  position: absolute;
+  top: 38px;
+  background: #fff;
+  right: 0;
+  width: 200px;
+  padding: 8px 8px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px rgba(17, 17, 26, 0.1), 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1);
+}
+.user-dropdown ul{
+  margin: 0;
+  padding: 0;
+}
+.user-dropdown ul li{
+  margin-bottom: 8px;
+}
+.user-dropdown ul li a{
+  font-weight: bold;
+}
+.user-dropdown ul li a span{
+  margin-left: 8px;
+}
+.user-detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+.user-2{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 36px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.user-detail p{
+  margin-bottom: 8px;
+}
+.user-detail p span:first-child{
+  font-size: 16px;
+}
+.user-detail p span:last-child{
+  font-size: 16px;
+}
+.status{
+  width: 100px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.p-form{
+  margin-top: 44px;
+  margin-bottom: 24px;
+}
+.product-img{
+  width: 100%;
+  margin-top: 12px;
+}
+.card-image{
+  height: 186px;
+}
+.card-image img{
+  height: 100%;
+}
+a{
+ text-decoration: none !important;
+}
+#carouselExample .carousel-item img{
+  width: 100%;
+}
+.layer{
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+@media screen and (min-width: 768px){
+  .product-container{
+    padding: 24px 48px;
+  }
+  .form-box{
+    width: 40%;
+  }
+  .product-card{
+    width: 286px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .carousel-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-in #carouselExample{
+    width: 800px;
+  }
+}
+@media screen and (min-width: 1400px){
+  .carousel-in #carouselExample{
+    width: 1200px;
+  }
+}
